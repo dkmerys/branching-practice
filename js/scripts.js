@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     if (age) {
     var quote = (100 - age) * 3;
-    if gender === 'male' && age < 26) {
+    if (gender === 'male' && age < 26) {
       quote += 50;
     }
 
